@@ -5,6 +5,7 @@ function Header() {
     return (
       <header>
           <h1>Olivia Faraone</h1>
+          
       </header>
     );
   }

@@ -4,7 +4,8 @@ import React from 'react';
 function NavTabs(props) {
   const tabs = ['About', 'Project', 'Resume', 'Contact'];
   return (
-    <ul className="nav nav-tabs">
+      <header> 
+    <ul className="nav nav-tabs flex-row space-between">
       {tabs.map(tab => (
         <li className="nav-item" key={tab}>
           <a
@@ -21,6 +22,7 @@ function NavTabs(props) {
         </li>
       ))}
     </ul>
+    </header>
   );
 }
 
